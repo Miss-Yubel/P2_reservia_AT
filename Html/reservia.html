@@ -12,18 +12,18 @@
 <body>
     <nav>
         <ul class="lis">
-            <li class="liste"><a href="#accueil">Hébergements</a></li>
-            <li class="liste"><a href= "#tete">Activités</a></li>
-            <li class="liste"><a href="#portfolio">S'inscrire</a></li>
-            
+            <li class="liste" id="hebergement"><a href="#accueil">Hébergements</a></li>
+            <li class="liste" id="activite"><a href= "#tete">Activités</a></li>
+            <li class="liste" id="inscription"><a href="#portfolio">S'inscrire</a></li>
+
         </ul>
        </nav>
     <header>
         <img class="logo" src="../images/logo/Reservia@3x.png" alt="">
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <h2>En plein centre ville ou en pleine nature</h2>
-        <div><input class="recherche" type="search" ><div class="search">Rechercher<div></div>
-        <ul>
+        <div class="barre_de_r" ><div class="geo"><i class="fas fa-map-marker-alt"></i></div><input class="recherche" type="search" ><button class="search">Rechercher</button></div>
+        <ul class="truc">
             <li class="filtre">Filtres</li>
             <li class="lis2"><div id="billet" class="icon"><i class="fas fa-money-bill-wave"></i></div>Economique</li>
             <li class="lis2"><div id="homme" class="icon"><i class="fas fa-child"></i></div>Familial</li>
@@ -127,6 +127,8 @@
               
         <img src="../images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="">
         </div>
+
+        <p class="afficher">Afficher plus</p>
         
     </section>
 
@@ -143,7 +145,8 @@
             
             <div class="tout2">
             <div class="rectangle2"></div>
-            <div class="text2"><em>Auberge la Cannebière</em><br/>
+            <div class="text2"><em>Hôtel Le soleil du <br/>matin</em><br/>
+                <p class="prix">Nuit à partir de <em>128€</em></p>
                 <div class="star"><i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -157,7 +160,8 @@
         <div class="container2">
             <div class="tout2">
             <div class="rectangle2"></div>
-            <div class="text2"><em>Hotêl du port</em><br/>
+            <div class="text2"><em>Au coeur de l'eau <br/>Chambres d'hôtes</em><br/>
+                <p class="prix">Nuit à partir de <em>71€</em></p>
                 <div class="star"><i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -170,7 +174,8 @@
         <div class="container2">
             <div class="tout2">
             <div class="rectangle2"></div>
-            <div class="text2"><em>Hôtel Les mouettes</em><br/>
+            <div class="text2"><em>Hôtel Tout bleu et<br/>Blanc</em><br/>
+                <p class="prix">Nuit à partir de <em>68€</em></p>
                  <div class="star"><i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
