@@ -66,6 +66,9 @@ button{
     font-family: raleway;
     border: hidden;
 }
+.loupe{
+    display: none;
+}
  .recherche {
      height: 50px;
      font-family: raleway;
@@ -106,6 +109,25 @@ h2{
     font-family: raleway;
     color: gray;
 }
+.logement{
+    top: 350px;
+    position: absolute;
+    width: 500px;
+    
+    
+}
+.info{
+    width: 18.4px;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    right: 500px;
+    border: 1px solid grey;
+    padding:5px ;
+    color: blue;
+    border-radius: 20px;
+
+}
 .lis2{
     font-size: 25px;
     font-family: raleway;
@@ -125,6 +147,10 @@ h2{
   }
 p{
     font-family: raleway;
+}
+.p_truc{
+    font-family: raleway;
+    left: 30px;
 }
 .filtre{
     font-size: 25px;
@@ -777,11 +803,12 @@ body{
      
 
     }
-    .lis .liste:hover {
+     .lis .liste:hover {
         border-bottom-style: inset;
         border-bottom: 2px solid #5cadd3; 
         border-top: none;
         padding-bottom: 15px;
+        color: #5cadd3;
         
       
         
@@ -802,6 +829,8 @@ body{
         display: flex;
         text-decoration: none;
         margin-left: 0;
+        color: grey;
+
     }
     #inscription{
         position: absolute;
@@ -825,8 +854,31 @@ body{
         padding-bottom: 25px;
         
     }
+    .geo{
+        right: 200px;
+    }
     .barre_de_r{
         left: 30px;
+        width: 200px;
+    }
+    .loupe{
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        left: 200px;
+        border: 1px solid black;
+        background-color: blue;
+        border-radius: 20px;
+        padding: 15px;
+
+
+    }
+    .loupe:hover{
+        color: blue;
+        background-color: white;
+    }
+    button{
+        display: none;
     }
 
 
@@ -845,9 +897,7 @@ body{
         left: 0;
         padding: 0;
         top: 50px;
-        margin: 0 ;
-        right: 100px;
-       
+       margin-top: 10px;
         position: relative;
         
     }
@@ -859,11 +909,22 @@ body{
         display: flex;
         flex-wrap: wrap;
         padding: 0;
-       
-        margin: 0 auto;
+        margin: 0 auto;   
+        position: absolute; 
+    }
+    .p_truc{
         
-        
-      
+        position: relative;
+        font-size: 1.1em;
+    }
+    .info{
+        top: 15px;
+        right: 350px;
+    }
+    .logement{
+        top: 350px;
+        position: absolute;
+        width: 375px;
         
         
         
@@ -960,13 +1021,13 @@ body{
 
 
     .image3{
-        width: 365px; 
+        width: 335px; 
         top: 2800px;
         position: relative;  
         display: block;
         flex-direction: column;
         margin: 0 auto;
-        left: 5%;
+        left: 10%;
      
     }
     .texto3{
@@ -1004,10 +1065,10 @@ body{
 
     .image4{
         top: 2884px;
-        width: 365px;
+        width: 335px;
         position: relative;
         bottom: 0px;
-        left: 3.3%;
+        left:4.5%;
         margin: 0 auto;
         
         display: block;
