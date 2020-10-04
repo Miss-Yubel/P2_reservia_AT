@@ -148,7 +148,7 @@ h2{
 p{
     font-family: raleway;
 }
-.p_truc{
+.p_global{
     font-family: raleway;
     left: 30px;
 }
@@ -757,6 +757,10 @@ body{
 
 @media screen and (max-width: 1360px)
 {
+
+
+
+    /* mise en place de l'header et de la nav responsive */
     html{
         overflow-x: hidden;
     }
@@ -883,11 +887,7 @@ body{
 
 
 
-
-
-
-
-
+    /* mise en place des filtre responsive */
 
 
 
@@ -895,7 +895,7 @@ body{
     .lis2{
         font-size: 1em;
         left: 0;
-        padding: 0;
+        padding: 5px;
         top: 50px;
        margin-top: 10px;
         position: relative;
@@ -905,21 +905,23 @@ body{
         height: 20px;
         flex: none;
     }
-    .truc{
+    .global{
         display: flex;
         flex-wrap: wrap;
         padding: 0;
         margin: 0 auto;   
         position: absolute; 
     }
-    .p_truc{
+    .p_global{
         
         position: relative;
         font-size: 1.1em;
+        top: 200px;
     }
     .info{
-        top: 15px;
+        top: 215px;
         right: 350px;
+
     }
     .logement{
         top: 350px;
@@ -938,11 +940,7 @@ body{
     }
    
 
-
-
-
-
-
+    /* mise en place de l'image responsive */
 
 
     .image{
@@ -980,12 +978,7 @@ body{
 
 
 
-
-
-
-
-
-
+    /* mise en place de l'image2 responsive */
 
 
     .image2{
@@ -1011,13 +1004,7 @@ body{
 
 
 
-
-
-
-
-
-
-
+    /* mise en place de l'image3 responsive */
 
 
     .image3{
